@@ -78,5 +78,5 @@ jobs:
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
         service: gora-container-service
-        cluster: gora
+        cluster: default
         wait-for-service-stability: true
